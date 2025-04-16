@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="container">
-    <h1>Detalhes do Colaborador</h1>
+    <h1>Sobre o Colaborador</h1>
 
     <div class="card p-4 mb-3">
         <h3>{{ $colaborador->nome_completo }}</h3>

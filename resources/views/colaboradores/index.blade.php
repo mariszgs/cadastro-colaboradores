@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="container">
-    <h1>Lista de Colaboradores</h1>
+    <h1>Colaboradores</h1>
 
     @if(session('success'))
         <div class="alert alert-success">
