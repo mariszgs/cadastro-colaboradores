@@ -8,17 +8,23 @@
 </head>
 <body class="font-sans antialiased bg-gray-100 dark:bg-gray-900">
 
-    <header class="p-4 bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-gray-200">
-        <h1>{{ config('app.name', 'Laravel') }}</h1>
-    </header>
+    <div class="min-h-screen bg-gray-100 dark:bg-gray-900">
+        {{-- Aqui chama o menu que tava faltando --}}
+        @include('layouts.navigation')
 
-    <main class="p-6">
-        {{ $header ?? '' }}
+        @isset($header)
+            <header class="bg-white dark:bg-gray-800 shadow">
+                <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
+                    {{ $header }}
+                </div>
+            </header>
+        @endisset
 
-        <div class="mt-6">
+        <main class="p-6">
             {{ $slot }}
-        </div>
-    </main>
+        </main>
+    </div>
 
 </body>
 </html>
+

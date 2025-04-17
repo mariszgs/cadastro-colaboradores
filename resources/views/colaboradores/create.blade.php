@@ -41,9 +41,32 @@
                         <label for="cidade" class="block font-medium text-sm text-gray-700 dark:text-gray-300">Cidade:</label>
                         <select name="cidade" id="cidade" class="mt-1 block w-full rounded-md shadow-sm border-gray-300 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-100" required>
                             <option value="">Selecione</option>
+                            <option value="Aracaju">Aracaju</option>
+                            <option value="Belém">Belém</option>
+                            <option value="Belo Horizonte">Belo Horizonte</option>
+                            <option value="Boa Vista">Boa Vista</option>
+                            <option value="Campo Grande">Campo Grande</option>
+                            <option value="Cuiabá">Cuiabá</option>
+                            <option value="Curitiba">Curitiba</option>
+                            <option value="Florianópolis">Florianópolis</option>
+                            <option value="Fortaleza">Fortaleza</option>
+                            <option value="Goiânia">Goiânia</option>
+                            <option value="João Pessoa">João Pessoa</option>
+                            <option value="Macapá">Macapá</option>
+                            <option value="Maceió">Maceió</option>
+                            <option value="Manaus">Manaus</option>
+                            <option value="Natal">Natal</option>
+                            <option value="Palmas">Palmas</option>
+                            <option value="Porto Alegre">Porto Alegre</option>
+                            <option value="Porto Velho">Porto Velho</option>
+                            <option value="Recife">Recife</option>
+                            <option value="Rio Branco">Rio Branco</option>
+                            <option value="Rio Branco">Rio de Janeiro</option>
+                            <option value="Salvador">Salvador</option>
+                            <option value="São Luís">São Luís</option>
                             <option value="São Paulo">São Paulo</option>
-                            <option value="Rio de Janeiro">Rio de Janeiro</option>
-                            <option value="Brasília">Brasília</option>
+                            <option value="Teresina">Teresina</option>
+                            <option value="Vitória">Vitória</option>
                         </select>
                     </div>
 
