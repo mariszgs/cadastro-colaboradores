@@ -1,5 +1,4 @@
- # Desafio Técnico - Estágio em Desenvolvimento Laravel
- Sistema de Cadastro de Colaboradores 
+Sistema de Cadastro de Colaboradores 
 
  Sobre:
  Esta é uma aplicação web que tem como principais funcionalidades registrar, visualizar, editar e excluir dados de colaboradores participantes de um evento corporativo realizado por uma empresa.
