@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('colaboradores', function (Blueprint $table) {
             $table->id();
-            $table->string('nome completo');
+            $table->string('nome_completo');
             $table->enum('setor', ['Tecnologia', 'Administrativo', 'Projeto']);
             $table->string('cidade');
             $table->dateTime('data_checkin');       
