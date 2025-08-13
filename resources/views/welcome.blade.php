@@ -9,7 +9,7 @@
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=instrument-sans:400,500,600" rel="stylesheet" />
-
+        
         <!-- Styles / Scripts -->
         @if (file_exists(public_path('build/manifest.json')) || file_exists(public_path('hot')))
             @vite(['resources/css/app.css', 'resources/js/app.js'])
@@ -38,23 +38,23 @@
         </li>
     </ul>
 </div>
-                <div class="bg-[#fff2f2] dark:bg-[#1D0002] relative lg:-ml-px -mb-px lg:mb-0 rounded-t-lg lg:rounded-t-none lg:rounded-r-lg aspect-[335/376] lg:aspect-auto w-full lg:w-[438px] shrink-0 overflow-hidden flex items-center justify-center">
+               <div class="bg-[#fff2f2] dark:bg-[#1D0002] relative lg:-ml-px -mb-px lg:mb-0 rounded-t-lg lg:rounded-t-none lg:rounded-r-lg aspect-[335/376] lg:aspect-auto w-full lg:w-[438px] shrink-0 overflow-hidden flex items-center justify-center">
 
     @if (Route::has('login'))
         <nav class="flex gap-3">
             @auth
                 <a href="{{ url('/dashboard') }}"
-                   class="px-5 py-1.5 border text-[#1b1b18] dark:text-[#EDEDEC] hover:border-[#19140035] hover:border-[#1915014a] dark:border-[#3E3E3A] dark:hover:border-[#62605b] rounded-sm text-sm">
+                   class="px-5 py-1.5 border border-[#333333] dark:border-[#555555] hover:border-[#000000] dark:hover:border-[#AAAAAA] text-[#1b1b18] dark:text-[#EDEDEC] rounded-sm text-sm font-inter">
                     Dashboard
                 </a>
             @else
                 <a href="{{ route('login') }}"
-                   class="px-5 py-1.5 border text-[#1b1b18] dark:text-[#EDEDEC] hover:border-[#19140035] hover:border-[#1915014a] dark:border-[#3E3E3A] dark:hover:border-[#62605b] rounded-sm text-sm">
+                   class="px-5 py-1.5 border border-[#333333] dark:border-[#555555] hover:border-[#000000] dark:hover:border-[#AAAAAA] text-[#1b1b18] dark:text-[#EDEDEC] rounded-sm text-sm font-inter">
                     Log in
                 </a>
                 @if (Route::has('register'))
                     <a href="{{ route('register') }}"
-                       class="px-5 py-1.5 border text-[#1b1b18] dark:text-[#EDEDEC] hover:border-[#19140035] hover:border-[#1915014a] dark:border-[#3E3E3A] dark:hover:border-[#62605b] rounded-sm text-sm">
+                       class="px-5 py-1.5 border border-[#333333] dark:border-[#555555] hover:border-[#000000] dark:hover:border-[#AAAAAA] text-[#1b1b18] dark:text-[#EDEDEC] rounded-sm text-sm font-inter">
                         Register
                     </a>
                 @endif
